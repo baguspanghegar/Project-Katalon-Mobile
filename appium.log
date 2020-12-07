@@ -1,0 +1,1103 @@
+[35m[Appium][39m Welcome to Appium v1.19.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 60168
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/xg/nvmpzzkx68g5bgzvbbl7bl300000gn/T//Katalon/Appium/Temp1607324341610
+[35m[Appium][39m   chromedriverPort: 60169
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 60169
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60168
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/bri/Documents/Pelatihan/FINAL PROJECTS/MOBILE/app-debug.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"8.1.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":60183},"capabilities":{"firstMatch":[{"appium:app":"/Users/bri/Documents/Pelatihan/FINAL PROJECTS/MOBILE/app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.1.0","appium:systemPort":60183,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.19.0 creating new AndroidUiautomator2Driver (v1.59.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[BaseDriver][39m Using local app '/Users/bri/Documents/Pelatihan/FINAL PROJECTS/MOBILE/app-debug.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under '/Users/bri/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/bri/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/Users/bri/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb' from '/Users/bri/.katalon/tools/android_sdk/platform-tools/adb'
+[35m[ADB][39m Package name: 'com.example.mikebanks.bankscorpfinancial'
+[35m[ADB][39m Main activity name: 'com.example.mikebanks.bankscorpfinancial.LaunchActivity'
+[35m[ADB][39m Using 'apksigner.jar' from '/Users/bri/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' is signed with the default certificate
+[35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m '/Users/bri/Documents/Pelatihan/FINAL PROJECTS/MOBILE/app-debug.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at '/Users/bri/Documents/Pelatihan/FINAL PROJECTS/MOBILE/app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'app-debug.apk' took 3209ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.15.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.15.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity and waiting for 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session e07f9581-04a6-425d-8d3f-da0fac54e67a added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15591 ms - 1364[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a [39m[32m200[39m [90m141 ms - 1318[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a [39m[32m200[39m [90m20 ms - 1318[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m462 ms - 10635[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m640 ms - 166962[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m265 ms - 13281[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m606 ms - 209270[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m127 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m38 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m46 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/1d22c77b-9198-4680-8951-98b5cc3348cf/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/1d22c77b-9198-4680-8951-98b5cc3348cf/location [39m[32m200[39m [90m29 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"1d22c77b-9198-4680-8951-98b5cc3348cf"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 1d22c77b-9198-4680-8951-98b5cc3348cf
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m171 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m647 ms - 26562[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1012 ms - 432986[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m70 ms - 907[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Payment\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m146 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Payment\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m129 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/dac8fdb7-5ed7-4e10-a8fd-6f5b11fb41ec/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/dac8fdb7-5ed7-4e10-a8fd-6f5b11fb41ec/location [39m[32m200[39m [90m65 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"dac8fdb7-5ed7-4e10-a8fd-6f5b11fb41ec"}}]}[39m
+[35m[UiAutomator2][39m calling get location: dac8fdb7-5ed7-4e10-a8fd-6f5b11fb41ec
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m184 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m568 ms - 12245[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m646 ms - 199146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/txt_select_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/txt_select_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/d8238373-6a38-4f82-b524-5406c393da5a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/d8238373-6a38-4f82-b524-5406c393da5a/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d8238373-6a38-4f82-b524-5406c393da5a"}}]}[39m
+[35m[UiAutomator2][39m calling get location: d8238373-6a38-4f82-b524-5406c393da5a
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m181 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m161 ms - 12245[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m641 ms - 199146[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/floating_action_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m35 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m57 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/floating_action_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m39 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/bd115f79-5bc5-48e6-a918-8dbcc057fa79/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/bd115f79-5bc5-48e6-a918-8dbcc057fa79/location [39m[32m200[39m [90m18 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"bd115f79-5bc5-48e6-a918-8dbcc057fa79"}}]}[39m
+[35m[UiAutomator2][39m calling get location: bd115f79-5bc5-48e6-a918-8dbcc057fa79
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m181 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m531 ms - 3894[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m683 ms - 215990[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m50 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m33 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/location [39m[32m200[39m [90m23 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/clear[39m
+[35m[HTTP][39m [90m{"id":"b8450d02-1fca-4e29-8f6b-27ff302fddb1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/clear [39m[32m200[39m [90m41 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/value[39m
+[35m[HTTP][39m [90m{"id":"b8450d02-1fca-4e29-8f6b-27ff302fddb1","text":"Mouse","value":["M","o","u","s","e"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/b8450d02-1fca-4e29-8f6b-27ff302fddb1/value [39m[32m200[39m [90m1087 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m55 ms - 3889[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m607 ms - 215716[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m60 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m50 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/04536edc-3e4a-4291-8ff0-1e4f72f8264a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/04536edc-3e4a-4291-8ff0-1e4f72f8264a/location [39m[32m200[39m [90m43 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"04536edc-3e4a-4291-8ff0-1e4f72f8264a"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 04536edc-3e4a-4291-8ff0-1e4f72f8264a
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m216 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m836 ms - 14068[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1075 ms - 223364[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/floating_action_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/floating_action_btn"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m81 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/98749dee-8e90-400a-9ea9-e018c9293200/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/98749dee-8e90-400a-9ea9-e018c9293200/location [39m[32m200[39m [90m30 ms - 80[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"98749dee-8e90-400a-9ea9-e018c9293200"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 98749dee-8e90-400a-9ea9-e018c9293200
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m165 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m315 ms - 3894[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m636 ms - 209628[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m64 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m47 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/location [39m[32m200[39m [90m32 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/clear[39m
+[35m[HTTP][39m [90m{"id":"e690e590-ff8a-48ec-bff0-9ae75a5e609b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/clear [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/value[39m
+[35m[HTTP][39m [90m{"id":"e690e590-ff8a-48ec-bff0-9ae75a5e609b","text":"Ram","value":["R","a","m"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e690e590-ff8a-48ec-bff0-9ae75a5e609b/value [39m[32m200[39m [90m1083 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m43 ms - 3887[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m642 ms - 205768[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m45 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c93fb955-798b-4be2-87ae-c2cd94dd469b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c93fb955-798b-4be2-87ae-c2cd94dd469b/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c93fb955-798b-4be2-87ae-c2cd94dd469b"}}]}[39m
+[35m[UiAutomator2][39m calling get location: c93fb955-798b-4be2-87ae-c2cd94dd469b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m236 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m771 ms - 14065[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1083 ms - 222362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/bfbd1d68-725c-476b-bc7a-34960b865cd1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/bfbd1d68-725c-476b-bc7a-34960b865cd1/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"bfbd1d68-725c-476b-bc7a-34960b865cd1"}}]}[39m
+[35m[UiAutomator2][39m calling get location: bfbd1d68-725c-476b-bc7a-34960b865cd1
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m170 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m418 ms - 2411[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m577 ms - 223590[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/text1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m27 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Mouse (P1)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m66 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Mouse (P1)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e7d6719b-c1db-4941-a3fa-d8598ac03dc3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e7d6719b-c1db-4941-a3fa-d8598ac03dc3/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"e7d6719b-c1db-4941-a3fa-d8598ac03dc3"}}]}[39m
+[35m[UiAutomator2][39m calling get location: e7d6719b-c1db-4941-a3fa-d8598ac03dc3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m912 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m132 ms - 13688[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m614 ms - 210686[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payment_amount"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payment_amount"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m21 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/location [39m[32m200[39m [90m22 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/clear[39m
+[35m[HTTP][39m [90m{"id":"856a4ee6-16fb-4e4b-8ea8-e1aad05057d5"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/clear [39m[32m200[39m [90m38 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/value[39m
+[35m[HTTP][39m [90m{"id":"856a4ee6-16fb-4e4b-8ea8-e1aad05057d5","text":"650","value":["6","5","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/856a4ee6-16fb-4e4b-8ea8-e1aad05057d5/value [39m[32m200[39m [90m1007 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m115 ms - 13685[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m712 ms - 209824[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_make_payment"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_make_payment"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m55 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/24a88b7c-e9ae-4f1f-9877-ea6879059846/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/24a88b7c-e9ae-4f1f-9877-ea6879059846/location [39m[32m200[39m [90m33 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"24a88b7c-e9ae-4f1f-9877-ea6879059846"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 24a88b7c-e9ae-4f1f-9877-ea6879059846
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m162 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m729 ms - 14078[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m980 ms - 229312[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m24 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m37 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/046c9429-6dba-4c38-8219-fceadceb3a69/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/046c9429-6dba-4c38-8219-fceadceb3a69/location [39m[32m200[39m [90m32 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"046c9429-6dba-4c38-8219-fceadceb3a69"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 046c9429-6dba-4c38-8219-fceadceb3a69
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m169 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m552 ms - 26968[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m927 ms - 428852[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m77 ms - 907[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Transfer\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m109 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Transfer\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m75 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/cc115efa-c073-4756-8e71-a811d7136714/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/cc115efa-c073-4756-8e71-a811d7136714/location [39m[32m200[39m [90m41 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"cc115efa-c073-4756-8e71-a811d7136714"}}]}[39m
+[35m[UiAutomator2][39m calling get location: cc115efa-c073-4756-8e71-a811d7136714
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m197 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m338 ms - 9049[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m979 ms - 371954[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/button1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m115 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m28 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/button1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/09329f34-076c-40a6-a72a-271c6e824f3f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/09329f34-076c-40a6-a72a-271c6e824f3f/location [39m[32m200[39m [90m26 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"09329f34-076c-40a6-a72a-271c6e824f3f"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 09329f34-076c-40a6-a72a-271c6e824f3f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m151 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m2048 ms - 4387[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1111 ms - 316770[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m30 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m33 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/05a2cc71-8864-40a9-b450-4cf9ea7bff05/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/05a2cc71-8864-40a9-b450-4cf9ea7bff05/location [39m[32m200[39m [90m41 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"05a2cc71-8864-40a9-b450-4cf9ea7bff05"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 05a2cc71-8864-40a9-b450-4cf9ea7bff05
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m184 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m45 ms - 4387[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m720 ms - 316770[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m23 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_payee_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m20 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/clear[39m
+[35m[HTTP][39m [90m{"id":"7d8e6661-b08b-4aac-afd0-52834afca468"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/clear [39m[32m200[39m [90m23 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/value[39m
+[35m[HTTP][39m [90m{"id":"7d8e6661-b08b-4aac-afd0-52834afca468","text":"Store","value":["S","t","o","r","e"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/7d8e6661-b08b-4aac-afd0-52834afca468/value [39m[32m200[39m [90m1267 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m66 ms - 4380[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m703 ms - 312714[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_init_bal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m20 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m28 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_init_bal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m57 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/clear[39m
+[35m[HTTP][39m [90m{"id":"9ec66e18-05c6-4717-9e09-b0a9926775d4"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/clear [39m[32m200[39m [90m21 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/value[39m
+[35m[HTTP][39m [90m{"id":"9ec66e18-05c6-4717-9e09-b0a9926775d4","text":"5000","value":["5","0","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9ec66e18-05c6-4717-9e09-b0a9926775d4/value [39m[32m200[39m [90m1018 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m42 ms - 4358[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m741 ms - 303326[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_add_payee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c7c4f3eb-7ddb-4f32-840e-71d02d5334fa/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c7c4f3eb-7ddb-4f32-840e-71d02d5334fa/location [39m[32m200[39m [90m37 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c7c4f3eb-7ddb-4f32-840e-71d02d5334fa"}}]}[39m
+[35m[UiAutomator2][39m calling get location: c7c4f3eb-7ddb-4f32-840e-71d02d5334fa
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m225 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m1080 ms - 16142[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1407 ms - 277298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m58 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/666d517b-fb1e-4af1-9f34-183ecb13e0aa/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/666d517b-fb1e-4af1-9f34-183ecb13e0aa/location [39m[32m200[39m [90m17 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"666d517b-fb1e-4af1-9f34-183ecb13e0aa"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 666d517b-fb1e-4af1-9f34-183ecb13e0aa
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m151 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m588 ms - 29043[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m845 ms - 436904[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m51 ms - 907[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Transfer\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m120 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Make a Transfer\").resourceId(\"com.example.mikebanks.bankscorpfinancial:id/design_menu_item_text\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(false).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m76 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c1707829-7b82-42b3-b859-cfe408c8ea19/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/c1707829-7b82-42b3-b859-cfe408c8ea19/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c1707829-7b82-42b3-b859-cfe408c8ea19"}}]}[39m
+[35m[UiAutomator2][39m calling get location: c1707829-7b82-42b3-b859-cfe408c8ea19
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m197 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m675 ms - 12741[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m706 ms - 198042[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_transfer_amount"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m49 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_sending_acc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m65 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_sending_acc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/d9520235-55a8-43dc-89d3-3e8c3698e3b3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/d9520235-55a8-43dc-89d3-3e8c3698e3b3/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d9520235-55a8-43dc-89d3-3e8c3698e3b3"}}]}[39m
+[35m[UiAutomator2][39m calling get location: d9520235-55a8-43dc-89d3-3e8c3698e3b3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m172 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m413 ms - 2419[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m776 ms - 211064[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/text1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m20 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Store ($5000.00)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m70 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Store ($5000.00)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m40 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/f8a08e0f-cc12-4d2f-a09d-cd524d17d7ad/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/f8a08e0f-cc12-4d2f-a09d-cd524d17d7ad/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"f8a08e0f-cc12-4d2f-a09d-cd524d17d7ad"}}]}[39m
+[35m[UiAutomator2][39m calling get location: f8a08e0f-cc12-4d2f-a09d-cd524d17d7ad
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m910 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m158 ms - 12741[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m961 ms - 195658[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_receiving_acc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/spn_select_receiving_acc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m37 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9e3d2b6b-767d-4541-9887-bca5a009a16f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/9e3d2b6b-767d-4541-9887-bca5a009a16f/location [39m[32m200[39m [90m33 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"9e3d2b6b-767d-4541-9887-bca5a009a16f"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 9e3d2b6b-767d-4541-9887-bca5a009a16f
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m207 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m504 ms - 2429[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m637 ms - 211676[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/text1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m27 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Gaming ($350.00)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m53 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.CheckedTextView\").text(\"Gaming ($350.00)\").resourceId(\"android:id/text1\").packageName(\"com.example.mikebanks.bankscorpfinancial\").enabled(true).clickable(true).longClickable(false).checkable(true).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m45 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e18311d3-8f9d-4243-b2b6-2ad58a4a9351/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/e18311d3-8f9d-4243-b2b6-2ad58a4a9351/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"e18311d3-8f9d-4243-b2b6-2ad58a4a9351"}}]}[39m
+[35m[UiAutomator2][39m calling get location: e18311d3-8f9d-4243-b2b6-2ad58a4a9351
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m807 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m159 ms - 12741[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m787 ms - 197760[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_transfer_amount"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_transfer_amount"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m24 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/clear[39m
+[35m[HTTP][39m [90m{"id":"927bdd7a-9b10-4852-b91e-8906eb797ca4"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/clear [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/value[39m
+[35m[HTTP][39m [90m{"id":"927bdd7a-9b10-4852-b91e-8906eb797ca4","text":"4500","value":["4","5","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/927bdd7a-9b10-4852-b91e-8906eb797ca4/value [39m[32m200[39m [90m1082 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m74 ms - 12730[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m652 ms - 191216[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_confirm_transfer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m32 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_confirm_transfer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m34 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/91064e54-bf11-4eca-ad56-02ae358804af/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/91064e54-bf11-4eca-ad56-02ae358804af/location [39m[32m200[39m [90m45 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"91064e54-bf11-4eca-ad56-02ae358804af"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 91064e54-bf11-4eca-ad56-02ae358804af
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m183 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m725 ms - 13123[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[32m200[39m [90m1376 ms - 213508[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Open navigation drawer"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/elements [39m[32m200[39m [90m55 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/54bfa093-7792-4473-99e4-8ea8b569195c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/element/54bfa093-7792-4473-99e4-8ea8b569195c/location [39m[32m200[39m [90m40 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"54bfa093-7792-4473-99e4-8ea8b569195c"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 54bfa093-7792-4473-99e4-8ea8b569195c
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/touch/perform [39m[32m200[39m [90m163 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (e07f9581)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 7e008bc2-9b38-4443-91a1-caacbdaadd19 with e07f9581-04a6-425d-8d3f-da0fac54e67a
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/source [39m[32m200[39m [90m1522 ms - 11541[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m socket hang up
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a/screenshot [39m[31m500[39m [90m64 ms - 800[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session e07f9581-04a6-425d-8d3f-da0fac54e67a from our master session list
+[35m[WD Proxy][39m socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e07f9581-04a6-425d-8d3f-da0fac54e67a [39m[32m200[39m [90m121 ms - 14[39m
+[35m[HTTP][39m [90m[39m
